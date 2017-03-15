@@ -1,5 +1,12 @@
 module CGSL [system] {
     header "/usr/local/include/gsl/gsl_math.h"
+    header "/usr/local/include/gsl/gsl_sys.h"
+    header "/usr/local/include/gsl/gsl_inline.h"
+    header "/usr/local/include/gsl/gsl_machine.h"
+    header "/usr/local/include/gsl/gsl_precision.h"
+    header "/usr/local/include/gsl/gsl_nan.h"
+    header "/usr/local/include/gsl/gsl_pow_int.h"
+    header "/usr/local/include/gsl/gsl_minmax.h"
     link "gsl"
     export *
 }
