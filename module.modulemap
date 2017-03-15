@@ -1,0 +1,3 @@
+module CGSL [system] {
+    header "/usr/local/include/gsl/gsl_math.h"
+}
